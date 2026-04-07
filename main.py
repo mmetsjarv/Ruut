@@ -12,7 +12,7 @@ SPEED = 5
 def main():
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("Move the Square")
+    pygame.display.set_caption("Ruut")
     clock = pygame.time.Clock()
 
     x = (WIDTH - SQUARE_SIZE) // 2
