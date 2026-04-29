@@ -4,7 +4,7 @@ import pygame
 WIDTH = 800
 HEIGHT = 600
 BG_COLOR = (30, 30, 30)
-SQUARE_COLOR = (255, 200, 0)
+SQUARE_COLOR = (0, 102, 51)
 SQUARE_SIZE = 50
 SPEED = 5
 
@@ -12,7 +12,7 @@ SPEED = 5
 def main():
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("Ruut")
+    pygame.display.set_caption("Ruut Metsjärv")
     clock = pygame.time.Clock()
 
     x = (WIDTH - SQUARE_SIZE) // 2
